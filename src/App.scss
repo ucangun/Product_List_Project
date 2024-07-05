@@ -1,3 +1,10 @@
 @import "./scss/mixin";
 @import "./scss/reset";
 @import "./scss/variable";
+
+body {
+  background: linear-gradient(to bottom, $bgColorPrimary, $bgColorSecondary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
