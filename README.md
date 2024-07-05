@@ -29,7 +29,10 @@ The primary objective of this project is to enhance and demonstrate my skills in
 ┣ 📜App.js
 ┣ 📜App.scss
 ┗ 📜index.js
-├──readme.md   
+├── .gitignore
+└── README.md
+├── package.lock.json
+├── package.json
 
 ```
 
