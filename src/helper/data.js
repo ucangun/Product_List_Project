@@ -268,11 +268,11 @@ const products = [
 ];
 
 export const categories = [
-  "all",
-  "electronics",
-  "jewelery",
-  "men's clothing",
-  "women's clothing",
+  "All",
+  "Electronics",
+  "Jewelery",
+  "Men's Clothing",
+  "Women's Clothing",
 ];
 
 export default products;

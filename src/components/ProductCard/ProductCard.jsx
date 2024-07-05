@@ -1,10 +1,9 @@
 import "./ProductCard.scss";
-import products from "../../helper/data";
 
-const ProductCard = () => {
+const ProductCard = ({ produkte }) => {
   return (
     <div className="cardContainer">
-      {products.map(({ id, title, price, category, image }) => {
+      {produkte.map(({ id, title, price, image }) => {
         return (
           <div className="card" key={id}>
             <img className="card__image" src={image} alt={title} />
