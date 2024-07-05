@@ -21,8 +21,8 @@ The primary objective of this project is to enhance and demonstrate my skills in
 │  ├──ProductCard
 │  │  ├──ProductCard.jsx
 │  │  ├──ProductCard.scss
-│  ├──helper
-│  │  ├──data.js
+│  └──helper
+│     └──data.js
 ├──scss
 │     ├──_mixins.scss
 │     ├──_reset.scss
