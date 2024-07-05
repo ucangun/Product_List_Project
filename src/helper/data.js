@@ -1,4 +1,4 @@
-export const products = [
+const products = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -274,3 +274,5 @@ export const categories = [
   "men's clothing",
   "women's clothing",
 ];
+
+export default products;
