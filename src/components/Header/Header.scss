@@ -1,0 +1,29 @@
+@import "../../scss/variable";
+
+header {
+  h1 {
+    font-size: 2.2rem;
+    color: $headerColor;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    li {
+      font-size: 1.2rem;
+      border-radius: 1rem;
+      background-color: #fff;
+      padding: 0.6rem 1.2rem;
+      transition: all 1s;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $headerHoverColor;
+      }
+    }
+  }
+}
