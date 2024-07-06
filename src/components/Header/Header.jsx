@@ -18,7 +18,7 @@ const Header = ({ setProdukte }) => {
       }
     };
     getProductData();
-  }, [category]);
+  }, [setProdukte, category]);
 
   return (
     <header>
